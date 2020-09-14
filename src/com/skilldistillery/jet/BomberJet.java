@@ -10,7 +10,7 @@ public class BomberJet extends Jet implements CombatReady {
 
 	@Override
 	public void fight() {
-		System.out.println("My model is "+this.model+", I'm ready to bomb!");	
+		System.out.println("Model: " + this.model + " . " + "Ready to bomb.");	
 	}
 
 }

@@ -10,7 +10,7 @@ public class AirlinerJet extends Jet implements CargoCarrier{
 
 	@Override
 	public void loadCargo() {
-		System.out.println("Model: "+ this.model + "." + "Ready to transport passengers and small cargo.");
+		System.out.println("Model: "+ this.model + " . " + "Ready to transport passengers and small cargo. ");
 	}
 
 }

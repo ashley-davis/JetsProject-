@@ -1,5 +1,5 @@
-FighterJet,Dassault Mirage 3,1200,1674,3000000
-CargoJet,Boeing C-17,590, 6456,2000000
+FighterJet,Dassault Mirage 3,1200,1674,30000000
+CargoJet,Boeing C-17,590, 6456,20000000
 InterceptorJet,Mikoyan MiG-31 Foxhound,13250,1700,5700000
 AirlinerJet,Aurora DC-8 United,2730,4900,1700000
 BomberJet,Boeing B-52 Stratofortress, 650,8800,2100000
