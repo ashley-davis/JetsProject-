@@ -20,6 +20,8 @@ The "Jet" abstract class has 4 fields (model, range, speed, price). It contains 
 Classes that inherit from this class will also inherit its methods.
 Any class that implements an interface will implement its specific method with a custom method body for each one.
 
+![Screen Shot 2020-09-14 at 04 51 59](https://user-images.githubusercontent.com/49802469/93077531-2826da80-f646-11ea-91fb-7ca5f8a09fe6.png)
+
 The first menu option allows the display of all jet details through the "toString" method of the "Jet" class.
 The second menu option allows the call of the "Fly" method of the "Jet" class for all the jets and which displays their details and their flight times.
 The third option displays the fastest jet by browsing the list of jets and obtaining the maximum value of the jet speeds.
