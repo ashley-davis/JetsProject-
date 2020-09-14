@@ -3,7 +3,9 @@ Jet Project is my Week Three project in the Skill Distillery coding bootcamp.
 
 <h2>Usage</h2>
 This project allows the user to see information about a fleet of jets, such as Model name, speed, range, and price.
-![Screen Shot 2020-09-14 at 04 55 34](https://user-images.githubusercontent.com/49802469/93077784-923f7f80-f646-11ea-94db-b20d797c260d.png)
+![Screen Shot 2020-09-14 at 04 55 34]
+
+(https://user-images.githubusercontent.com/49802469/93077784-923f7f80-f646-11ea-94db-b20d797c260d.png)
 
 The user can select the fastest and longest range jet from a preloaded list.
 
@@ -16,7 +18,9 @@ The project pulls in a "ListOfJets" variable which is a field of the "AirField" 
 This data is read from a text file, "inputjets.txt"
 For the import of the data of the 5 jets, I created a static method in the "JetsApplication" class which contains the main method,
 the "GetJetsFromFile" method. This returns a list of jets that were assigned later to the "ListOfJets" field of the "AirField" object.
-![Screen Shot 2020-09-14 at 04 57 49](https://user-images.githubusercontent.com/49802469/93077981-e9ddeb00-f646-11ea-8836-b20e5eb4aeff.png)
+![Screen Shot 2020-09-14 at 04 57 49]
+
+(https://user-images.githubusercontent.com/49802469/93077981-e9ddeb00-f646-11ea-8836-b20e5eb4aeff.png)
 
 I created an abstract class "Jet", a class "JetImpl", which inherits from the class "Jet".
 There are two interfaces "CargoCarrier" and "CombatReady" each with its own method ("LoadCargo" for the "CargoCarrier" interface and "Fight" for the "CombatReady" interface), and 5 other classes which represent 5 different types of jets. These inherit from the "Jet" class, and each implements one of the two interfaces depending on the jet type.
