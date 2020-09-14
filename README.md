@@ -18,6 +18,8 @@ The project pulls in a "ListOfJets" variable which is a field of the "AirField" 
 This data is read from a text file, "inputjets.txt"
 For the import of the data of the 5 jets, I created a static method in the "JetsApplication" class which contains the main method,
 the "GetJetsFromFile" method. This returns a list of jets that were assigned later to the "ListOfJets" field of the "AirField" object.
+
+https://github.com/ashley-davis/JetsProject-/issues/3#issue-700993550
 ![Screen Shot 2020-09-14 at 04 57 49]
 
 (https://user-images.githubusercontent.com/49802469/93077981-e9ddeb00-f646-11ea-8836-b20e5eb4aeff.png)
