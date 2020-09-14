@@ -41,12 +41,12 @@ Eclipse IDE
 Ashley Davis
 
 <h2>Acknowledgements</h2>
-Head First Java by Bert and Kathy Bates
-GeekforGeek.com, and many Java dev blogs
+Head First Java by Bert and Kathy Bates,
+GeekforGeek.com, and many Java dev blogs,
 StackOverflow.com
 
 <h2>Special Thanks</h2>
-Gray Morrow
-Gabriel Davis
-Cowboy and Garbanzo Davis
-My classmates of the Skill Distillery 27 Cohort
+Gray Morrow,
+Gabriel Davis,
+Cowboy and Garbanzo Davis,
+Classmates of the Skill Distillery 27 Cohort
