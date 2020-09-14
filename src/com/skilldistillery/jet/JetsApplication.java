@@ -188,6 +188,9 @@ public class JetsApplication {
 				continue;
 			}
 		}
+		System.out.println("Pew!.........................");
+		System.out.println("............Pew!.............");
+		System.out.println(".....................Pew!....");
 	}
 
 	private void addJet() {
