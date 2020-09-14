@@ -1,10 +1,24 @@
-## Jet Project
-this project allows to fill a list of jets in a "ListOfJets" variable which is a field of the "AirField" class,
+<h1>Jet Project</h2>
+Jet Project is my Week Three project in the Skill Distillery coding bootcamp.
+
+<h2>Usage</h2>
+This project allows the user to see information about a fleet of jets, such as Model name, speed, range, and price.
+The user can select the fastest and longest range jet from a preloaded list.
+The user can execute commands to Fly, Load Cargo, and Fight from the main menu.
+Jet Project also has the ability for the user to add and remove their own custom jet.
+
+<h2>Development</h2>
+in a "ListOfJets" variable which is a field of the "AirField" class,
 it allows the display of a menu with 9 options given by the assignment document.
 data is read from a text file named "inputjets.txt"
 for the import of the data of the 5 jets, we created a static method in the "JetsApplication" class which contains the main method,
 this is the "GetJetsFromFile" method which returns a list of jets that were assigned later to the "ListOfJets" field of the "AirField" object.
+
+
+
+
 We have created an abstract class "Jet", a class "JetImpl" which inherits from the class "Jet",
+
 two interfaces "CargoCarrier" and "CombatReady" each with its own method ("LoadCargo" for the "CargoCarrier" interface and "Fight" for the "CombatReady" interface),
 and 5 other classes which represent 5 different types of jets, which inherit from the "Jet" class and which each implements one of the two interfaces depending on the jet type.
 the "Jet" abstract class has 4 fields (model, range, speed, price), it contains a default constructor, a custom constructor with 4 parameters (model, range, speed and price), setters, getters,
